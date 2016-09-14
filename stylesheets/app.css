@@ -9735,3 +9735,18 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 1, ../scss/_images.scss */
+img {
+  width: 25vw;
+  height: 20vw;
+  display: block;
+  float: left;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 11, ../scss/_images.scss */
+.hidden {
+  display: none;
+}
