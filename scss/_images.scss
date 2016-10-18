@@ -1,11 +1,24 @@
+#img-wrapper {
+  padding-top: 100px;
+}
+
+#img-wrapper {
+
+}
+
 img {
   width: 25vw;
   height: 20vw;
+  border: 5px solid white;
   display: block;
   float: left;
+  opacity: 1;
   overflow: hidden;
   background-size: cover;
   background-position: center;
+  &:hover {
+    opacity: .6;
+  }
 }
 
 .hidden {

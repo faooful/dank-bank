@@ -1,0 +1,46 @@
+/* line 1, ../scss/search-box.scss */
+.search-wrapper {
+  width: 100%;
+  position: fixed;
+}
+
+/* line 6, ../scss/search-box.scss */
+.search-icon {
+  height: 36px;
+  width: 36px;
+  margin: 32px 0 0 32px;
+  float: left;
+  position: fixed;
+  line-height: 6.2;
+  visibility: visible !important;
+  opacity: 1 !important;
+  background: url(../images/search.png);
+  background-size: cover;
+}
+
+/* line 19, ../scss/search-box.scss */
+.break {
+  height: 50px;
+  width: 1px;
+  float: left;
+  position: fixed;
+  top: 25px;
+  left: 85px;
+  background: #f0f0f0;
+}
+
+/* line 29, ../scss/search-box.scss */
+#filter {
+  height: 100px;
+  padding-left: 100px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Avenir Next', 'AvenirNextLTW01-Regular', 'Avenir Next W01 Light', Helvetica, sans-serif;
+  color: #18171F;
+  -webkit-appearance: none;
+}
+/* line 38, ../scss/search-box.scss */
+#filter:focus {
+  background: white;
+}
