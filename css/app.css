@@ -1,12 +1,18 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
 #img-wrapper {
-  padding-top: 100px; }
+  padding-top: 100px;
+  overflow: hidden; }
 
 img {
   width: 25vw;
   height: 20vw;
-  border: 5px solid white;
   display: block;
-  float: left;
   opacity: 1;
   overflow: hidden;
   background-size: cover;
@@ -14,8 +20,15 @@ img {
   img:hover {
     opacity: .6; }
 
+.gif {
+  float: left;
+  overflow: hidden; }
+
 .hidden {
   display: none; }
+
+input {
+  width: 100%; }
 
 .search-wrapper {
   width: 100%;
@@ -53,5 +66,14 @@ img {
   -webkit-appearance: none; }
   #filter:focus {
     background: white; }
+
+.copy-link-btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  position: absolute;
+  margin: 20px 0 0 20px;
+  background: tomato;
+  z-index: 99; }
 
 /*# sourceMappingURL=app.css.map */

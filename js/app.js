@@ -1,3 +1,4 @@
+//Adding images to the page
 var dir = "../images/";
 var fileextension = ".gif";
 $.ajax({
@@ -7,7 +8,7 @@ $.ajax({
         //List all gifs file names in the page
         $(data).find("a:contains(" + fileextension + ")").each(function () {
             var filename = this.href.replace(window.location.host, "").replace("http:///", "");
-            $("#img-wrapper").append($("<img src=" + dir + filename + "></img>"));
+            $("#img-wrapper").append($("<div class='gif'><div class='copy-link-btn'></div><img src=" + dir + filename + "></img></div>"));
         });
     }
 });
