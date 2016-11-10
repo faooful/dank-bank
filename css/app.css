@@ -1,0 +1,57 @@
+#img-wrapper {
+  padding-top: 100px; }
+
+img {
+  width: 25vw;
+  height: 20vw;
+  border: 5px solid white;
+  display: block;
+  float: left;
+  opacity: 1;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center; }
+  img:hover {
+    opacity: .6; }
+
+.hidden {
+  display: none; }
+
+.search-wrapper {
+  width: 100%;
+  position: fixed; }
+
+.search-icon {
+  height: 36px;
+  width: 36px;
+  margin: 32px 0 0 32px;
+  float: left;
+  position: fixed;
+  line-height: 6.2;
+  visibility: visible !important;
+  opacity: 1 !important;
+  background: url(../images/search.png);
+  background-size: cover; }
+
+.break {
+  height: 50px;
+  width: 1px;
+  float: left;
+  position: fixed;
+  top: 25px;
+  left: 85px;
+  background: #f0f0f0; }
+
+#filter {
+  height: 100px;
+  padding-left: 100px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Avenir Next', 'AvenirNextLTW01-Regular', 'Avenir Next W01 Light', Helvetica, sans-serif;
+  color: #18171F;
+  -webkit-appearance: none; }
+  #filter:focus {
+    background: white; }
+
+/*# sourceMappingURL=app.css.map */
