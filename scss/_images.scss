@@ -11,14 +11,16 @@ img {
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  &:hover {
-    opacity: .6;
-  }
 }
 
 .gif {
   float: left;
   overflow: hidden;
+  &:hover{
+    .copy-link-btn {
+      opacity: 1;
+    }
+  }
 }
 
 .hidden {

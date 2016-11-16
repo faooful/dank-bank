@@ -17,12 +17,12 @@ img {
   overflow: hidden;
   background-size: cover;
   background-position: center; }
-  img:hover {
-    opacity: .6; }
 
 .gif {
   float: left;
   overflow: hidden; }
+  .gif:hover .copy-link-btn {
+    opacity: 1; }
 
 .hidden {
   display: none; }
@@ -32,7 +32,8 @@ input {
 
 .search-wrapper {
   width: 100%;
-  position: fixed; }
+  position: fixed;
+  z-index: 99; }
 
 .search-icon {
   height: 36px;
@@ -74,6 +75,8 @@ input {
   position: absolute;
   margin: 20px 0 0 20px;
   background: tomato;
-  z-index: 99; }
+  z-index: 98;
+  opacity: 0;
+  cursor: pointer; }
 
 /*# sourceMappingURL=app.css.map */

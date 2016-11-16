@@ -8,10 +8,19 @@ $.ajax({
         //List all gifs file names in the page
         $(data).find("a:contains(" + fileextension + ")").each(function () {
             var filename = this.href.replace(window.location.host, "").replace("http:///", "");
-            $("#img-wrapper").append($("<div class='gif'><div class='copy-link-btn'></div><img src=" + dir + filename + "></img></div>"));
+            var src = dir + filename;
+            var domainUrl = 'http://localhost:8888/';
+            // var absoluteUrl = dir + filename;
+            $("#img-wrapper").append($("<div class='gif'><button class='copy-link-btn' data-clipboard-text="+ domainUrl + src +"></button><img src=" + src + "></img></div>"));
         });
     }
 });
+
+//Copy to clipboard
+(function(){
+    new Clipboard('.copy-link-btn');
+})();
+
 
 //Filter the images
 const input = document.querySelector('input')
