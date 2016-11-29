@@ -4,8 +4,14 @@
   border-radius: 30px;
   position: absolute;
   margin: 20px 0 0 20px;
-  background: tomato;
+  border: none;
+  background: $white;
   z-index: 98;
   opacity: 0;
   cursor: pointer;
+  @include transition(opacity .2s ease);
+  @include box-shadow;
+  &:active {
+    background: tomato;
+  }
 }
