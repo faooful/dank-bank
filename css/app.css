@@ -64,7 +64,10 @@ input {
   font-weight: 400;
   font-family: 'Avenir Next', 'AvenirNextLTW01-Regular', 'Avenir Next W01 Light', Helvetica, sans-serif;
   color: #18171F;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0em 0.7em 20px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0em 0.7em 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0em 0.7em 20px 0px rgba(0, 0, 0, 0.4); }
   #filter:focus {
     background: white; }
 
@@ -84,10 +87,15 @@ input {
   -ms-transition: opacity 0.2s ease;
   -o-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
-  -webkit-box-shadow: 0em 0.7em 20px 0px #000000;
-  -moz-box-shadow: 0em 0.7em 20px 0px #000000;
-  box-shadow: 0em 0.7em 20px 0px #000000; }
-  .copy-link-btn:active {
+  -webkit-box-shadow: 0em 0.7em 20px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0em 0.7em 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0em 0.7em 20px 0px rgba(0, 0, 0, 0.4); }
+  .copy-link-btn:focus {
     background: tomato; }
+
+.clipboard-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 9px; }
 
 /*# sourceMappingURL=app.css.map */

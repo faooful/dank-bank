@@ -40,6 +40,7 @@ input {
   font-family: 'Avenir Next', 'AvenirNextLTW01-Regular', 'Avenir Next W01 Light', Helvetica, sans-serif;
   color: #18171F;
   -webkit-appearance: none;
+  @include box-shadow;
   &:focus {
     background: white;
   }

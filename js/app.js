@@ -11,7 +11,7 @@ $.ajax({
             var src = dir + filename;
             var domainUrl = 'http://localhost:8888/';
             // var absoluteUrl = dir + filename;
-            $("#img-wrapper").append($("<div class='gif'><button class='copy-link-btn' data-clipboard-text="+ domainUrl + src +"></button><img src=" + src + "></img></div>"));
+            $("#img-wrapper").append($("<div class='gif'><button class='copy-link-btn' data-clipboard-text="+ domainUrl + src +"><img class='clipboard-icon' src='../clipboard-icon.png'></button><img src=" + src + "></img></div>"));
         });
     }
 });

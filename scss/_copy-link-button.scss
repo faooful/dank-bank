@@ -11,7 +11,13 @@
   cursor: pointer;
   @include transition(opacity .2s ease);
   @include box-shadow;
-  &:active {
+  &:focus {
     background: tomato;
   }
+}
+
+.clipboard-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 9px;
 }
